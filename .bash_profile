@@ -1,3 +1,5 @@
+# to read later `http://natelandau.com/my-mac-osx-bash_profile/`
+
 # git completion
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
@@ -15,5 +17,11 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 export CLICOLOR=1
 export LSCOLORS=Exfxcxdxbxegedabagacad
 
+# turn colors in ls
+alias ls='ls -G'
+
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
+
+# Ignores dupes in the history
+export HISTCONTROL=ignoredups
