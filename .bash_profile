@@ -25,3 +25,5 @@ export GREP_OPTIONS='--color=auto'
 
 # Ignores dupes in the history
 export HISTCONTROL=ignoredups
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
