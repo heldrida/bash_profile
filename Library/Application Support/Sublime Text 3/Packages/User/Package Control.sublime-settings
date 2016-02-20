@@ -5,8 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
+		"DocBlockr",
 		"Emmet",
 		"HTML-CSS-JS Prettify",
+		"JavaScript Completions",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
